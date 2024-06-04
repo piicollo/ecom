@@ -1,0 +1,63 @@
+#navbar {
+    background-color: black;
+    height: 60px;
+}
+.logo {
+    color: orange;
+    font-size: 25px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    margin-right: 200px;
+
+}
+button {
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+}
+
+input {
+    border-radius: 5px;
+}
+#content {
+    padding: 25px;
+    margin: 25px;
+    height: 400px;
+}
+
+#contentBox1 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: rgba(255, 0, 0, 0.5);
+    margin: 15px;
+    text-align: center;
+}
+#contentBox2 {
+    height: 100px;
+    width: 100px;
+    margin: 15px;
+    border: 1px solid black;
+    background-color: rgba(0, 255, 0, 0.5);
+    text-align: center;
+
+    
+}
+#contentBox3 {
+    height: 100px;
+    width: 100px;
+    margin: 15px;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 255, 0.5);
+    text-align: center;
+    
+}
+
+footer {
+    background-color: #0f1111;
+    color: white;
+    text-align: center;
+}
+
