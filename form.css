@@ -1,0 +1,73 @@
+.forms {
+    background-color: rgb(24, 207, 207);
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    padding: 15px;
+    margin: 25px 25px 25px 25px;
+    padding: 25px 25px 25px 25px;
+}
+
+/* input {
+    border-radius: 5px;
+} */
+
+.in {
+    font-family: cursive;
+    background-color: rgb(40, 40, 107);
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin: 10px;
+}
+#but {
+    border: 1px solid red;
+    text-align: center;
+}
+.check {
+    background-color: aqua;
+    text-align: center;
+    text-decoration: dashed;
+}
+#date {
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+}
+
+#local {
+    padding: 15px;
+    margin: 25px;
+    text-align: center;
+}
+
+#emal {
+    margin: 25px;
+    padding: 25px;
+    text-align: center;
+}
+
+.file {
+    margin: 25px;
+    padding: 25px;
+    text-align: center;
+}
+.hide {
+    text-align: center;
+    padding: 25px;
+    margin: 25px;
+}
+
+.image {
+    margin: 25px;
+    padding: 25px;
+    text-align: center;
+    background-image: url("min.jpg");
+    position: relative;
+    background-size: cover;
+    opacity: 0.5;
+    height: 250px;
+    width: 250px;
+    
+}
