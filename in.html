@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Input Types</title>
+    <link rel="stylesheet" href="in.css">
+</head>
+<body>
+    <h1 class="head">HTML input types</h1>
+    <div class="in1">
+        <!-- Input type number -->
+     <fieldset>
+        <legend>Number Field</legend>
+        <p>We can use min and max attributes to add numeric restrictions in the input field: </p>
+        <label for="qty">Quantity(in Kg.):</label>
+        <input type="number" id="qty" name="qty" min="1" max="10">
+        <input type="submit" value="Submit">
+     </fieldset>
+    </div>
+    <br><br>
+    <div class="in2">
+        <!-- Html input type week -->
+         <fieldset>
+            <legend>
+            <label for="week">Today's week</label>
+            </legend>
+            <input type="week" id="week" name="week">
+         </fieldset>
+    </div>
+    <div class="in3">
+        <fieldset>
+            <legend>
+            <label for="page">Add your Homepage</label>
+            </legend>
+            <input type="url" id="page" name="page">
+            <input type="submit" value="Submit">
+        </fieldset>
+    </div>
+    <div class="in4">
+        <fieldset>
+            <legend>
+                <label for="tem">What time is it?</label>
+            </legend>
+            <input type="time" id="tem" value="tem">
+            <input type="submit" value="Submit">
+        </fieldset>
+    </div>
+    <div class="in5">
+        <fieldset>
+            <legend>
+                <label for="name">Your Name</label>
+            </legend>
+            <input type="text" id="name" placeholder="Full Name">
+            <input type="submit" value="Submit">
+        </fieldset>
+    </div>
+    <div class="in6">
+        <fieldset>
+            <legend>
+                <label for="phone">Enter your Phone Number</label>
+            </legend>
+            <input type="tel" placeholder="Phone Number" id="phone">
+        </fieldset>
+    </div>
+    <div class="in7">
+        <fieldset>
+            <legend>
+                <label for="butt">Sumbit your information</label>
+            </legend>
+            <input type="text" id="butt" placeholder="Username"> <br>
+            <input type="password" id="butt" placeholder="Password"> <br>
+            <!-- input type submit button -->
+            <input type="submit" value="Log In">
+        </fieldset>
+    </div>
+    <div class="in8">
+        <fieldset>
+            <legend>
+                <label for="look">Google Search</label>
+            </legend>
+            <input type="search" id="look">
+            <input type="submit" value="Search">
+        </fieldset>
+    </div>
+    <div class="in9">
+        <fieldset>
+            <legend>
+                Enter your Information
+            </legend>
+            <h3>Info Form</h3>
+            <input type="email" placeholder="E-mail"> <br><br><br><br>
+            <input type="text" placeholder="PIN Number"> <br><br> <br><br>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit ">
+        </fieldset>
+    </div>
+    <div class="in10">
+        <fieldset>
+            <legend>
+                Enter your number
+            </legend>
+            Volume (between 0 to 10): 
+            <input type="range" min="1" max="10">
+            <input type="submit" value="Submit">
+        </fieldset>
+    </div>
+</body>
+</html>
